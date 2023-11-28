@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/python-test
-    overwrite: true
+    file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
     - location: /install-dependencies
