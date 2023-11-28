@@ -1,4 +1,2 @@
 #!/bin/bash
-sudo chown -R ec2-user:root /home/ec2-user/python-test
-sudo chmod -R 777 /home/ec2-user/python-test
 sudo systemctl restart myapp.service
